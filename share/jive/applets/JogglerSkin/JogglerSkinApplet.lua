@@ -245,7 +245,7 @@ end
 -- skin
 -- The meta arranges for this to be called to skin the interface.
 function skin(self, s)
-	Framework:setVideoMode(800, 480, 0, false)
+	Framework:setVideoMode(1024, 600, 0, false)
 
 	local screenWidth, screenHeight = Framework:getScreenSize()
 
